@@ -3,18 +3,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Restaurant Sign In</title>
+    <title>Restaurant Sign Up</title>
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
 </head>
 <body>
-<form method="POST">
-    {% csrf_token %}
-    {{ form }}
-    <button type="submit">Sign In</button>
-
-</form>
+Restaurant Sign Up
 
 </body>
 </html>

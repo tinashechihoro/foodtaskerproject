@@ -14,4 +14,4 @@ def restaurant_home(request):
     return  render(request,'restaurant/home.html',{})
 def restaurant_sign_up(request):
     """restaurant_sign_up view"""
-    return render(request,'restaurant/sign-up.html',{})
+    return render(request,'restaurant/sign_up.html',{})
