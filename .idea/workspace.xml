@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a15f6cb-41b3-45d2-bbab-093693fdc233" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/foodtaskerapp/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodtaskerproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodtaskerproject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodtaskerapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodtaskerapp/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/foodtaskerapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
@@ -44,19 +45,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foodtaskerapp/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foodtaskerproject/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-              <folding>
-                <element signature="e#651#683#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,13 +80,14 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/foodtaskerproject/settings.py" />
-        <option value="$PROJECT_DIR$/foodtaskerapp/views.py" />
         <option value="$PROJECT_DIR$/foodtaskerproject/urls.py" />
+        <option value="$PROJECT_DIR$/foodtaskerapp/templates/home.html" />
+        <option value="$PROJECT_DIR$/foodtaskerapp/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="60" />
+    <option name="x" value="21" />
     <option name="y" value="-4" />
     <option name="width" value="1315" />
     <option name="height" value="736" />
@@ -98,6 +113,18 @@
             <path>
               <item name="foodtaskerproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="foodtaskerproject" type="462c0819:PsiDirectoryNode" />
+              <item name="foodtaskerapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodtaskerproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodtaskerproject" type="462c0819:PsiDirectoryNode" />
+              <item name="foodtaskerapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodtaskerproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodtaskerproject" type="462c0819:PsiDirectoryNode" />
               <item name="foodtaskerproject" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -108,6 +135,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -140,14 +168,21 @@
       <option name="project" value="LOCAL" />
       <updated>1524581817490</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="home url">
+      <created>1524581947807</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1524581947807</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="-4" width="1317" height="772" extended-state="6" />
+    <frame x="83" y="291" width="1315" height="708" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24905087" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24942966" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -171,7 +206,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="home page view" />
-    <option name="LAST_COMMIT_MESSAGE" value="home page view" />
+    <MESSAGE value="home url" />
+    <option name="LAST_COMMIT_MESSAGE" value="home url" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -188,22 +224,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/foodtaskerproject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodtaskerapp/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/foodtaskerapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodtaskerproject/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding>
-            <element signature="e#651#683#0" expanded="true" />
           </folding>
         </state>
       </provider>
