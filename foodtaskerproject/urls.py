@@ -12,5 +12,5 @@ urlpatterns = [
         name='restaurant-sign-in'),
     url(r'^restaurant/sign-out',auth.logout,
         {'next_page':'/'},
-        name='restaurant-sign-out')
+        name='restaurant-sign-out'),
 ]
