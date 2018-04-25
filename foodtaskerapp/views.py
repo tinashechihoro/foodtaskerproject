@@ -34,7 +34,7 @@ def restaurant_report(request):
 
 def restaurant_home(request):
     """restaurant_home"""
-    return  render(request,'restaurant/home.html',{})
+    return  render(request,'restaurant/base.html',{})
 
 def restaurant_sign_up(request):
     """restaurant_sign_up view"""
