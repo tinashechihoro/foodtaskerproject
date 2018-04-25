@@ -9,7 +9,14 @@
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
 </head>
 <body>
-Restaurant Sign Up
+<form method="POST">
+    {% csrf_token %}
+    {{ user_form }}
+    {{ restaurant_form }}
+
+    <button type="submit">Sign Up</button>
+
+</form>
 
 </body>
 </html>

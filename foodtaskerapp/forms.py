@@ -6,13 +6,15 @@ from foodtaskerapp.models import Restaurant
 
 class UserForm(forms.ModelForm):
     """UserForm form"""
+    email = forms.CharField(max_length=100,required=True)
+    password = forms.CharField(widget=forms.PasswordInput())
     class Meta:
         model = User
-        fields = ('username','pasword','first_name','last_name','email')
+        fields = ('username','password','first_name','last_name','email')
 
 
 class RestaurantForm(forms.ModelForm):
     """RestaurantForm form"""
     class Meta:
         model = Restaurant
-        fields = ('name','phone','adddres','logo')
+        fields = ('name','phone','address','logo')
