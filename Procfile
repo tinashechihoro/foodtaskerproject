@@ -1,0 +1,1 @@
+web: gunicorn foodtaskerproject.wsgi --log-file -
