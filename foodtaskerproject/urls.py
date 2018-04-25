@@ -25,5 +25,21 @@ urlpatterns = [
         name='restaurant-sign-up'),
 
     url(r'restaurant/$',views.restaurant_home,
-        name='restaurant-home')
+        name='restaurant-home'),
+    url(r'^restaurant/account/$',
+        views.restaurant_account,
+        name='restaurant-account'),
+url(r'^restaurant/account/$',
+        views.restaurant_mail,
+        name='restaurant-mail'),
+url(r'^restaurant/account/$',
+        views.restaurant_order,
+        name='restaurant-order'),
+url(r'^restaurant/account/$',
+        views.restaurant_report,
+        name='restaurant-report'),
+
+
+
+    
 ] + static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

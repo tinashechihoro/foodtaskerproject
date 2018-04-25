@@ -12,9 +12,30 @@ def home(request):
     """home page"""
     return redirect(restaurant_home)
 
+@login_required(login_url='/restaurant/sign-in/')
+def restaurant_account(request):
+    """restaurant_account"""
+    return render(request,'restaurant/account.html')
+
+@login_required(login_url='/restaurant/sign-in/')
+def restaurant_meal(request):
+    """restaurant_meal"""
+    return render(request, 'restaurant/meal.html')
+
+@login_required(login_url='/restaurant/sign-in/')
+def restaurant_order(request):
+    """restaurant_order"""
+    return render(request, 'restaurant/order.html')
+
+@login_required(login_url='/restaurant/sign-in/')
+def restaurant_report(request):
+    """restaurant_report"""
+    return render(request, 'restaurant/report.html')
+
 def restaurant_home(request):
     """restaurant_home"""
     return  render(request,'restaurant/home.html',{})
+
 def restaurant_sign_up(request):
     """restaurant_sign_up view"""
     user_form = UserForm()
