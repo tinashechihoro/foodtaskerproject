@@ -1,22 +1,16 @@
-{% load staticfiles %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Restaurant Sign Up</title>
-    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
-    <link rel="stylesheet" href="{% static 'css/main.css' %}">
-    <script src="{% static 'js/bootstrap.min.js' %}"></script>
-</head>
-<body>
+{%  extends 'base_signup.html' %}
+{% block title %} Sign Up{% endblock %}
+{%  block heading %} Restaurant Sign Up {% endblock %}
+
+
+{% block content %}
 <form method="POST" enctype="multipart/form-data">
     {% csrf_token %}
     {{ user_form }}
     {{ restaurant_form }}
 
-    <button type="submit">Sign Up</button>
+    <button type="submit" class="btn btn-pink  pull-right">Sign Up</button>
 
 </form>
 
-</body>
-</html>
+{%  endblock %}
